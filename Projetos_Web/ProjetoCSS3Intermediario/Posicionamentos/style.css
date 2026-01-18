@@ -1,0 +1,57 @@
+body{
+    background-color: #007fc7;
+}
+
+p{
+    width: 400px;
+}
+
+#container{
+    width: 800px;
+    background-color: #fff;
+    position: relative;
+    margin: 10px auto;
+}
+
+#position{
+    border: red 1px solid;
+    /*position: fixed; fixed -> fixa a posição do elemento em relação à janela do navegador*/
+    /*position: static; static -> posição padrão dos elementos*/
+    /*position: absolute; absolute -> posiciona o elemento em relação ao elemento pai mais próximo com posicionamento relativo (neste caso a div)*/
+    position: relative; /*relative -> posiciona o elemento em relação à sua posição original*/
+    top: -20px;
+    left: 50px;
+    
+}
+
+#conteudo1{
+    border: 1px solid red;
+    background: orange;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1; /*z-index -> controla a sobreposição dos elementos (elementos com maior z-index ficam na frente dos elementos com menor z-index)*/
+}
+
+#conteudo2{
+    border: 1px solid red;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 3;
+}
+
+#conteudo3{
+    border: 1px solid red;
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 2;
+}
+
