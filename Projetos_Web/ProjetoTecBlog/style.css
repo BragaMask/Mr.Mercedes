@@ -8,11 +8,41 @@ body{
     background-color: #e6e6e6;
 }
 
+img{
+    max-width: 100%;
+}
+
+hr{
+    width: 200px;
+    position: relative;
+    left: -5px;
+}
+
+h1{
+    font-size: 46px;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+/*Menu*/
 #menu{
     background-color: #f7b600;
     text-align: center; /* Centraliza os textos (conteudos) do menu */
     display: block;
-    padding: 10px;
+    padding: 20px;
 }
 
 #logo{
@@ -24,17 +54,72 @@ body{
 }
 
 /*Links do Menu*/
-a{
+#menu a{
     text-decoration: none;
     padding: 5px;
 }
 
-a:link, a:visited{
+#menu a:link, #menu a:visited{
     color: white;
 }
 
-a:hover{
+#menu a:hover{
     color: #f7b600;
     background-color: white;
 
 }
+
+/*Conteudo*/
+
+#conteudo{
+    margin: 20px auto;
+    width: 920px;
+}
+
+.area-postagem{
+    
+    width: 660px;
+    float: left;
+}
+
+.area-postagem a{
+    text-decoration: none;
+}
+
+.area-postagem a:link, .area-postagem a:visited{
+    color: #f7b600;
+}
+
+
+.area-menulateral{
+    width: 240px;
+    float: right;
+}
+
+.area-menulateral a{
+    text-decoration: none;
+}
+
+.area-menulateral a:link, .area-menulateral a:visited{
+    color: #f7b600;
+}
+
+.conteudo-menulateral{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#rodape{
+    clear: both; /* Limpa os floats anteriores */
+    background-color: #CCC;
+    text-align: center;
+    padding: 15px;
+}
+
+.conteudoPrincipal{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
