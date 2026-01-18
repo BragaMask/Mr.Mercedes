@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background-color: #e6e6e6;
+}
+
+#menu{
+    background-color: #f7b600;
+    text-align: center; /* Centraliza os textos (conteudos) do menu */
+    display: block;
+    padding: 10px;
+}
+
+#logo{
+    margin: 10px auto;
+}
+
+#fonteBranca{
+    color: white;
+}
+
+/*Links do Menu*/
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+
+}
