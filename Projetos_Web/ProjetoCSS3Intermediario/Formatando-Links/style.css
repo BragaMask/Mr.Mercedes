@@ -1,0 +1,26 @@
+a{
+
+}
+
+/*Links Não Visitados*/
+
+a:link{
+    color: #b9c941;
+}
+
+/*Links Visitados*/
+
+a:visited{
+    color: #c0c0c0;
+}
+
+/*Links Hover, passa o cursos sobre o link*/
+
+a:hover{
+    color: #6d790f;
+}
+
+/*Links Ativos, quando o link está sendo clicado*/
+a:active{
+    color: #ff0000;
+}
